@@ -66,7 +66,7 @@ $(document).ready(function(){
             modalEl.querySelector(".modal-title").textContent = `${info.display} offers... ${drink.strDrink}!`;
             modalEl.querySelector(".modal-body p").textContent = info.description;
             modalEl.querySelector(".modal-body img").src = drink.strDrinkThumb;
-            modalEl.querySelector(".modal-body a").href = `/src/drink/index.html?id=${info.drink}`;
+            modalEl.querySelector(".modal-body a").href = `/docs/drink/index.html?id=${info.drink}`;
         })
         
         

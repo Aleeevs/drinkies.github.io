@@ -17,13 +17,13 @@ body.innerHTML = `
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto gap-4">
                 <li class="nav-item">
-                    <a class="link" aria-current="page" href="/src/home/index.html">Home</a>
+                    <a class="link" aria-current="page" href="/docs/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="link" aria-current="page" href="/src/explore/index.html">Explore</a>
+                    <a class="link" aria-current="page" href="/docs/explore/index.html">Explore</a>
                 </li>
                 <li class="nav-item">
-                    <a class="link" aria-current="page" href="/src/aboutus/index.html">About</a>
+                    <a class="link" aria-current="page" href="/docs/aboutus/index.html">About</a>
                 </li>
             </ul>
         </div>
@@ -32,15 +32,15 @@ body.innerHTML = `
 ` + bodyContent + `
 <footer>
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="/src/home/index.html" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="/src/explore/index.html" class="nav-link px-2 text-muted">Explore</a></li>
-        <li class="nav-item"><a href="/src/aboutus/index.html" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="/docs/index.html" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="/docs/explore/index.html" class="nav-link px-2 text-muted">Explore</a></li>
+        <li class="nav-item"><a href="/docs/aboutus/index.html" class="nav-link px-2 text-muted">About</a></li>
     </ul>
     <p class="text-center text-muted">&copy; 2023 Drinkies, Inc</p>
 </footer>
 <div id="offcanvasSearch" class="offcanvas offcanvas-top" tabindex="-1">
     <div class="offcanvas-body container">
-        <form class="d-flex" action="/src/search/index.html">
+        <form class="d-flex" action="/docs/search/index.html">
             <input id="navbar-search" type="search" placeholder="Search..." name="q" autocomplete="off">
             <button class="btn link" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>

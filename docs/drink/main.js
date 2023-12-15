@@ -300,6 +300,6 @@ function appendSuggestion(suggestion) {
   body.appendChild(h4);
 
   li.addEventListener('click', () => {
-    window.location.href = "/src/drink/index.html?id=" + drink.id;
+    window.location.href = "/docs/drink/index.html?id=" + drink.id;
   });
 }

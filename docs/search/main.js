@@ -32,7 +32,7 @@ function search(value) {
         let card = document.createElement("div");
         card.classList.add("card", "justify-content-center", "drink-goto", "border-0");
         card.addEventListener("click", () => {
-          window.location.href = "/src/drink/index.html?id=" + drink.id;
+          window.location.href = "/docs/drink/index.html?id=" + drink.id;
         });
         col.appendChild(card);
 
