@@ -1,0 +1,38 @@
+#presentation h4 {
+    font-weight: 700;
+}
+
+#presentation h6 {
+    font-weight: 600;
+}
+
+#presentation q {
+    max-width: 500px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+#presentation img {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 30px;
+}
+
+#contacts a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    transform: scale(1.2);
+}

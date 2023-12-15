@@ -1,0 +1,61 @@
+#notFoundImg {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 400px;
+}
+
+#page > h2 {
+    font-family: 'Playfair Display', 'sans-serif';
+    font-weight: 700;
+}
+
+#page h3 {
+    font-weight: 500;
+}
+
+.card {
+    border-radius: 5px;
+    border: 1px solid #b2b6b9;
+}
+
+#search-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+#page input[type = "search"] {
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 2px solid #a1a6aa;
+
+    &:focus {
+        border-bottom: 2px solid #64686b;
+    }
+
+    &::-webkit-search-cancel-button {
+        -webkit-appearance: none;
+        height: 20px;
+        width: 20px;
+        margin: 0px;
+        padding: 0px;
+        background-image: url("../images/xmark-solid.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        transform: scale(1.3);
+    }
+}
+
+
+
+
+
+    
+
