@@ -5,7 +5,7 @@ let bodyContent = body.innerHTML;
 body.innerHTML = `
 <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center pt-4">
     <div class="container">
-        <img id="logo" src="/images/drinkies-logo.svg" alt="Drinkies">
+        <img id="logo" src="/drinkies/images/drinkies-logo.svg" alt="Drinkies">
         
         <div class="btn ms-auto order-lg-last link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSearch" aria-controls="offcanvasTop">
             <i class="fa-solid fa-magnifying-glass"></i>
