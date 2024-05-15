@@ -3,7 +3,7 @@ btn.addEventListener('click', () => {
     fetch('https://www.thecocktaildb.com/api/json/v1/1/random.php')
     .then(res => res.json())
     .then(data => {
-        window.location.href = "/docs/drink?id=" + data.drinks[0].idDrink;
+        window.location.href = "/drinkies/drink?id=" + data.drinks[0].idDrink;
     })
 });
 
@@ -25,7 +25,7 @@ function insertDrinkInCreator(id) {
         let card = document.createElement("div");
         card.classList.add("card", "justify-content-center", "drink-goto", "border-0");
         card.addEventListener("click", () => {
-          window.location.href = "/docs/drink?id=" + drink.idDrink;
+          window.location.href = "/drinkies/drink?id=" + drink.idDrink;
         });
         col.appendChild(card);
 
